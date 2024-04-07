@@ -5,7 +5,7 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
+@import url('./footer.css');
 @import url('./header.css');
 
 :root {
@@ -22,4 +22,23 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.form {
+  display: flex;
+}
+
+.new-trip-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0 auto;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
 }

@@ -8,24 +8,39 @@
   </head>
   <body>
     <section>
-      <div class="search-form"></div>
-      <button type="button">Підвезу</button>
-      <button type="button">Під'їду</button>
-      <form>
-        <input type="text" placeholder="звідки" />
-        <input type="text" placeholder="куди" />
-        <input type="text" placeholder="ім'я" />
-        <input type="text" placeholder="кількість місць" />
-        <input type="datetime" name="" id="" placeholder="дата та час" />
-        <input
-          type="tel"
-          name="Номер телефона"
-          id=""
-          placeholder="Номер
-      телефона"
-        />
+      <div class="form-container">
+        <form class="form new-trip-form">
+          <input
+            type="radio"
+            id="driverChoice"
+            name="mode"
+            value="driver"
+            checked
+          />
+          <label for="driverChoice">підвезу</label>
+          <input
+            type="radio"
+            id="passengerChoice"
+            name="mode"
+            value="passenger"
+            checked
+          />
+          <label for="passengerChoice">під`їду</label>
+
+          <input type="text" placeholder="звідки" />
+          <input type="text" placeholder="куди" />
+          <input type="text" placeholder="ім'я" />
+          <input type="text" placeholder="кількість місць" />
+          <input type="datetime" name="" id="" placeholder="дата та час" />
+          <input
+            type="tel"
+            name="Номер телефона"
+            id=""
+            placeholder="Номер телефона"
+          />
+        </form>
         <input type="submit" value="Підтвердити" />
-      </form>
+      </div>
     </section>
   </body>
 </html>
